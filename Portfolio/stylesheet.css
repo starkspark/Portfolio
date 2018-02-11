@@ -1,0 +1,434 @@
+body {
+    font-family: 'Rajdhani', sans-serif;
+    margin: 0;
+    background: #040721;
+    color: white;
+}
+#section1 {
+    height: 100vh;
+    min-height: 100%;
+    max-height: 100%;
+    background: linear-gradient(to left top, #E7EAFF 49.97%, #040721 50%);
+    margin-left: 0;
+    overflow: hidden;
+    text-align: center;
+}
+#sierra {
+    color: #EFF0FF;
+    transform: rotate(-29deg);
+    margin-top: 18%;
+    animation-name: slide1;
+    animation-duration: 2s;
+    font-size: 40px;
+}
+#swaby {
+    color: #242323;
+    display: inline-block;
+    animation-name: slide2;
+    animation-duration: 2s;
+    transform: rotate(150deg);
+    animation-iteration-count: 2;
+    animation-duration: .5s;
+    margin-top: -20%;
+    margin-right: 3%;
+    font-size: 40px;
+}
+@keyframes slide1 {
+    from {
+        transform: translateX(-100%, 100%);
+    }
+    to {
+        transform: translate(0);
+    }
+}
+@keyframes slide2 {
+    from {
+        transform: translate(100%, -100%) rotate(150deg);
+    }
+    to {
+        transform: translate(0) rotate(150deg);
+    }
+}
+#midSection {
+    background-color: #E7EAFF;
+    height: 90px;
+}
+#section2 {
+    height: 100%;
+    background-color: #040721;
+    min-height: 100%;
+    max-height: 100%;
+    height: 100vh;
+    padding-left: 5%;
+    overflow: hidden;
+    color: white;
+}
+.sectionborder {
+    border-style: solid;
+    border-color: grey;
+    border-width: .3px;
+    margin-right: 3%;
+    margin-top: 4%;
+    width: 95%;
+    height: 88%;
+}
+#changingtext {
+    background-color: #040721;
+    width: 40%;
+    height: 10%;
+    text-align: center;
+    margin-top: -3%;
+    margin-left: 33%;
+}
+#java {
+    width: 100%;
+    color: white;
+    font-family: 'Rajdhani';
+    font-weight: 100;
+    font-size: 130%;
+    letter-spacing: 2px;
+    display: inline-block;
+    text-align: center;
+}
+
+/*code for headliner animation begins*/
+
+#begin {
+    text-align: center;
+    margin-top: 6%;
+}
+#fragment1 {
+    white-space: nowrap;
+    overflow: hidden;
+    -webkit-animation: frag1type 2s 0s infinite;
+    animation: frag1type 5s 0s infinite;
+    display: inline-block;
+}
+@keyframes frag1type {
+    from {
+        width: 0;
+    }
+    37% {
+        width: 15em;
+    }
+    49% {
+        width: 0;
+    }
+    100% {
+        width: 0;
+    }
+}
+@-webkit-keyframes frag1type {
+    from {
+        width: 0;
+    }
+    37% {
+        width: 15em;
+    }
+    49% {
+        width: 0;
+    }
+    100% {
+        width: 0;
+    }
+}
+#fragment2 {
+    opacity: 0;
+    white-space: nowrap;
+    overflow: hidden;
+    -webkit-animation: frag2type 5s .5s infinite;
+    animation: frag2type 5s .5s infinite;
+    display: inline-block;
+    animation-delay: 2.5s;
+}
+@keyframes frag2type {
+    from {
+        width: 0;
+        opacity: 1;
+    }
+    37% {
+        width: 15em;
+        opacity: 1;
+    }
+    49% {
+        width: 0;
+        opacity: 1;
+    }
+    100% {
+        width: 0;
+        opacity: 1;
+    }
+}
+@-webkit-keyframes frag2type {
+    from {
+        width: 0;
+        opacity: 1;
+    }
+    37% {
+        width: 15em;
+        opacity: 1;
+    }
+    49% {
+        width: 0;
+        opacity: 1;
+    }
+    100% {
+        width: 0;
+        opacity: 1;
+    }
+}
+
+/*code for headline animation ends*/
+
+#section2 h1 {
+    font-size: 44px;
+    margin-left: -90%;
+    margin-top: -97%;
+    margin-right: 10%;
+    transform: rotate(270deg);
+    position: relative;
+}
+#section2 p {
+    font-size: 18px;
+    line-height: 28px;
+    margin-top: 55%;
+    margin-left: 15%;
+}
+#section2 br {
+    line-height: 3;
+}
+#section2Left {
+    width: 50%;
+    float: left;
+    margin-left: 5%;
+    margin-top: 30%;
+    display: inline;
+}
+#section2Left p {
+    text-align: justify;
+    width: 80%;
+    font-size: 17px;
+}
+
+.aboutText{
+  font-size: 150%;
+}
+
+button {
+    margin-top: 10%;
+    margin-left: 45%;
+    border: 2px solid white;
+    height: 55px;
+    width: 165px;
+    background-color: transparent;
+    color: white;
+    cursor: pointer;
+    text-align: center;
+    font-size: 16px;
+    font-family: 'Rajdhani', sans-serif;
+    font-size: 20px;
+    transition: background .4s ease-in, transform .2s ease-in-out;
+    position: relative;
+}
+button:hover {
+    background-color: white;
+    border-color: white;
+    color: black;
+    transform: scale(1.1);
+}
+#section2Right {
+    width: 50%;
+    display: inline-block;
+    margin-top: -15%;
+    margin-left: -6%;
+}
+
+#work2photo {
+  margin-top: -85%;
+  margin-left: 40%;
+}
+#photo1 {
+    margin-left: -14%;
+}
+#photo2 {
+    margin-left: -38%;
+    margin-top: -130%;
+}
+
+/*PORTFOLIO PAGE CSS PORTFOLIO PAGE CSS PORTFOLIO PAGE CSS PORTFOLIO PAGE CSS PORTFOLIO PAGE CSS PORTFOLIO PAGE CSS*/
+
+#work1 {
+    height: 90vh;
+    min-height: 100%;
+    max-height: 100%;
+    background-color: #E7EAFF;
+    padding-bottom: 3%;
+    padding-left: 5%;
+    overflow: hidden;
+    color: black;
+}
+.portSectionLeft {
+    margin-left: 9%;
+}
+.portSectionLeft h1 {
+    font-size: 46px;
+    margin-top: 7%;
+}
+.portSectionLeft h2 {
+    font-size: 30px;
+    margin-top: -2%;
+}
+.portSectionLeft p {
+    width: 42%;
+    margin-top: -9%;
+    text-align: justify;
+    font-size: 16.5px;
+    line-height: 26px;
+}
+.number {
+    background: #E7EAFF;
+    width: 80px;
+    height: 120px;
+    margin-left: -13%;
+    margin-top: 3%;
+    text-align: center;
+}
+.number h2 {
+    padding-top: 50%;
+}
+.number2 {
+    background: #040721;
+    width: 80px;
+    height: 120px;
+    margin-left: -13%;
+    margin-top: 3%;
+    text-align: center;
+}
+.number2 h2 {
+    padding-top: 50%;
+}
+#work2 {
+    height: 90vh;
+    min-height: 100%;
+    max-height: 100%;
+    background-color: #040721;
+    padding-bottom: 3%;
+    padding-left: 5%;
+    overflow: hidden;
+    color: white;
+}
+#buttonDark {
+    margin-top: 6%;
+    margin-left: 15%;
+    border: 2px solid black;
+    height: 55px;
+    width: 165px;
+    background-color: transparent;
+    color: black;
+    cursor: pointer;
+    text-align: center;
+    font-size: 16px;
+    font-family: 'Rajdhani', sans-serif;
+    font-size: 20px;
+    transition: background .4s ease-in, transform .2s ease-in-out;
+    position: relative;
+}
+#buttonDark:hover {
+    background-color: white;
+    border-color: white;
+    color: black;
+    transform: scale(1.1);
+}
+#buttonLight {
+    margin-top: 6%;
+    margin-left: 15%;
+    border: 2px solid white;
+    height: 55px;
+    width: 165px;
+    background-color: transparent;
+    color: white;
+    cursor: pointer;
+    text-align: center;
+    font-size: 16px;
+    font-family: 'Rajdhani', sans-serif;
+    font-size: 20px;
+    transition: background .4s ease-in, transform .2s ease-in-out;
+    position: relative;
+}
+#buttonLight:hover {
+    background-color: white;
+    border-color: white;
+    color: black;
+    transform: scale(1.1);
+}
+#portSectionRight {
+    width: 45%;
+    display: inline-block;
+    float: right;
+    margin-top: 5%;
+}
+#work2 #portSectionRight {
+    margin-top: 8%;
+}
+#portSectionRight img {
+    margin-top: 12%;
+    margin-left: 8%;
+}
+.context {
+    border-left-style: solid;
+    border-width: 1px;
+    margin-top: -60%;
+    padding-left: 8%;
+    padding-top: 5%;
+    text-align: center;
+    width: 160px;
+    height: 120px;
+}
+#fandangoPhoto {
+    margin-left: -35%;
+    margin-top: -100%;
+}
+
+/* Hamburger Menu */
+
+.animated-icon4 span:nth-child(1) {
+    top: 0px;
+    -webkit-transform-origin: left center;
+    -moz-transform-origin: left center;
+    -o-transform-origin: left center;
+    transform-origin: left center;
+}
+.animated-icon4 span:nth-child(2) {
+    top: 10px;
+    -webkit-transform-origin: left center;
+    -moz-transform-origin: left center;
+    -o-transform-origin: left center;
+    transform-origin: left center;
+}
+.animated-icon4 span:nth-child(3) {
+    top: 20px;
+    -webkit-transform-origin: left center;
+    -moz-transform-origin: left center;
+    -o-transform-origin: left center;
+    transform-origin: left center;
+}
+.animated-icon4.open span:nth-child(1) {
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    transform: rotate(45deg);
+    top: 0px;
+    left: 8px;
+}
+.animated-icon4.open span:nth-child(2) {
+    width: 0%;
+    opacity: 0;
+}
+.animated-icon4.open span:nth-child(3) {
+    -webkit-transform: rotate(-45deg);
+    -moz-transform: rotate(-45deg);
+    -o-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+    top: 21px;
+    left: 8px;
+}

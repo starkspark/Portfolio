@@ -1,0 +1,224 @@
+body{
+    font-family: 'Rajdhani', sans-serif;
+    margin: 0;
+    background: #040721;
+    color: white;
+}
+
+#siteLanding{
+    height: 100vh;
+    min-height: 100%;
+    max-height: 100%;
+    background: linear-gradient(to left top, #E7EAFF 49.97%, #040721 50%);
+    overflow: hidden;
+    text-align: center;
+}
+
+#sierra{
+    text-transform: uppercase;
+}
+
+#swaby{
+    text-transform: uppercase;
+}
+
+fieldset{
+    width: 90%;
+    height: 90%;
+    margin: auto;
+    margin-top: 30px;
+    min-width: 500px;
+    overflow: hidden;
+}
+
+legend{
+    text-align: center;
+    padding-left: 15%;
+    padding-right: 15%;
+    font-size: 25px;
+}
+
+#aboutSection{
+    padding: 15px 0px 45px 0px;
+    height: 90vh;
+    min-height: 100%;
+    max-height: 100%;
+    overflow: hidden;
+}
+
+.aboutFieldset{
+    height: 90%;
+}
+
+#boxLight{
+    background: #E7EAFF;
+    height: 12%;;
+    width: 6%;
+    position: absolute;
+    margin-top: 205px;
+    margin-left: -4%;
+    text-align: center;
+}
+
+#boxLight h1{
+    font-size: 2.5vw;
+    font-size:calc(12px + 2.5vh);
+}
+
+#boxDark{
+    background: #040721;
+    height: 12%;;
+    width: 6%;
+    position: absolute;
+    margin-top: 205px;
+    margin-left: -4%;
+    text-align: center;
+}
+
+#boxDark h1{
+    font-size: 2.5vw;
+    font-size:calc(12px + 2.5vh);
+}
+
+#workLight{
+    background: #E7EAFF;
+    padding: 15px 0px 45px 0px;
+    height: 80vh;
+    min-height: 100%;
+    max-height: 100%;
+    overflow: hidden;
+    color: #000;
+}
+
+#workDark{
+    padding: 15px 0px 45px 0px;
+    height: 80vh;
+    min-height: 100%;
+    max-height: 100%;
+    overflow: hidden;
+}
+
+.aboutRotate{
+    transform: rotate(270deg);
+}
+
+/*First TD*/
+.first{
+    padding-top: 15%;
+    padding-right: 3%;
+    font-size: 22px;
+}
+
+.fraction{
+    padding-top: 15%;
+    padding-right: 3%;
+    font-size: 15px;
+}
+
+.number{
+    line-height: 1;
+}
+
+.secondWork{
+    width: 35%;
+    text-align: justify;
+    padding-top: 5%;
+    padding-left: 8%;
+    line-height: 1.5;
+}
+
+.workBrief{
+    margin-top: 12%;
+    font-size: 17px;
+    line-height: 1.8;
+    max-height: 200px;
+    min-width: 350px;
+    overflow: hidden;
+}
+
+#buttonDark {
+    margin-top: 6%;
+    margin-left: 35%;
+    border: 2px solid black;
+    height: 55px;
+    width: 165px;
+    background-color: transparent;
+    color: black;
+    cursor: pointer;
+    text-align: center;
+    font-size: 16px;
+    font-family: 'Rajdhani', sans-serif;
+    font-size: 20px;
+    transition: background .4s ease-in, transform .2s ease-in-out;
+    position: relative;
+}
+#buttonDark:hover {
+    background-color: white;
+    border-color: white;
+    color: black;
+    transform: scale(1.1);
+}
+#buttonLight {
+    margin-top: 6%;
+    margin-left: 35%;
+    border: 2px solid white;
+    height: 55px;
+    width: 165px;
+    background-color: transparent;
+    color: white;
+    cursor: pointer;
+    text-align: center;
+    font-size: 16px;
+    font-family: 'Rajdhani', sans-serif;
+    font-size: 20px;
+    transition: background .4s ease-in, transform .2s ease-in-out;
+    position: relative;
+}
+#buttonLight:hover {
+    background-color: white;
+    border-color: white;
+    color: black;
+    transform: scale(1.1);
+}
+
+/*SECOND TD*/
+.second{
+    width: 40%;
+    text-align: justify;
+    padding-top: 5%;
+    font-size: 17px;
+    line-height: 1.8;
+}
+
+/*THIRD TD*/
+.third{
+    text-align: center;
+    width: 20%;
+    padding-top: 7%;
+    padding-left: 5%;
+}
+
+.vl{
+    border-left-style: solid;
+    border-width: 1px;
+    height: 155px;
+    padding-left: 15%;
+    margin-left: 25%;
+}
+
+.context{
+    padding-top: 20%;
+}
+
+/*LAST TD*/
+.last{
+    text-align: center;
+}
+
+.last img{
+    float: right;
+}
+
+@media screen and (min-width: 480px) {
+
+}
